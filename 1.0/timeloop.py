@@ -1,3 +1,3 @@
 a = int(input())
 for i in range(a):
-  print(str(i+1) + ' Abracadabra')
+    print(str(i+1) + ' Abracadabra')
