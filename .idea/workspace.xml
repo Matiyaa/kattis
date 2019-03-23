@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.0/ptice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2.0/printingcosts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -42,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.0/pet.py" />
         <option value="$PROJECT_DIR$/1.0/oddities.py" />
         <option value="$PROJECT_DIR$/1.0/nastyhacks.py" />
         <option value="$PROJECT_DIR$/1.0/lastfactorialdigit.py" />
@@ -93,6 +101,7 @@
         <option value="$PROJECT_DIR$/1.0/racingalphabet.py" />
         <option value="$PROJECT_DIR$/1.0/Ptice.py" />
         <option value="$PROJECT_DIR$/1.0/ptice.py" />
+        <option value="$PROJECT_DIR$/2.0/printingcosts.py" />
       </list>
     </option>
   </component>
@@ -110,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,15 +126,11 @@
               <item name="kattis" type="b2602c69:ProjectViewProjectNode" />
               <item name="kattis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kattis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kattis" type="462c0819:PsiDirectoryNode" />
-              <item name="1.0" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ptice">
+  <component name="RunManager" selected="Python.printingcosts">
     <configuration name="beavergnaw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kattis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hangingout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="printingcosts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kattis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\shado\Documents\GitHub\kattis\1.0\hangingout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.0/printingcosts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +262,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hangingout" />
       <item itemvalue="Python.beavergnaw" />
       <item itemvalue="Python.relocation" />
       <item itemvalue="Python.racingalphabet" />
       <item itemvalue="Python.ptice" />
+      <item itemvalue="Python.printingcosts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.printingcosts" />
         <item itemvalue="Python.ptice" />
         <item itemvalue="Python.racingalphabet" />
         <item itemvalue="Python.relocation" />
         <item itemvalue="Python.beavergnaw" />
-        <item itemvalue="Python.hangingout" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +299,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32871974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,13 +333,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.0/planina.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.0/pet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -682,7 +679,14 @@
     <entry file="file://$PROJECT_DIR$/1.0/ptice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.0/printingcosts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
