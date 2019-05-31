@@ -1,10 +1,10 @@
 def points_worth(number, suit, dominant):
-    vdominant = {"A": 11, "K": 4, "Q": 3, "J": 20, "T": 10, "9": 14, "8": 0, "7": 0}
-    vnondominant = {"A": 11, "K": 4, "Q": 3, "J": 2, "T": 10, "9": 0, "8": 0, "7": 0}
+    dominant_value = {"A": 11, "K": 4, "Q": 3, "J": 20, "T": 10, "9": 14, "8": 0, "7": 0}
+    non_dominant_value = {"A": 11, "K": 4, "Q": 3, "J": 2, "T": 10, "9": 0, "8": 0, "7": 0}
     if suit == dominant:
-        return vdominant[number]
+        return dominant_value[number]
     else:
-        return vnondominant[number]
+        return non_dominant_value[number]
 
 
 a, b = input().split()

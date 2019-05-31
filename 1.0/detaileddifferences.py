@@ -3,8 +3,8 @@ for i in range(n):
     a = input()
     b = input()
     c = ''
-    for i in range(len(a)):
-        if a[i] == b[i]:
+    for j in range(len(a)):
+        if a[j] == b[j]:
             c += '.'
         else:
             c += '*'

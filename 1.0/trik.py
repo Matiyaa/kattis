@@ -1,4 +1,4 @@
-def whereball(ball, move):
+def where_ball_is(ball, move):
     if move == 'A':
         if ball == 1:
             return 2
@@ -23,7 +23,7 @@ def whereball(ball, move):
 
 
 ball = 1
-moves = input ()
+moves = input()
 for i in moves:
-    ball = whereball (ball, i)
+    ball = where_ball_is(ball, i)
 print(ball)

@@ -18,27 +18,27 @@ def divide(drm):
 
 
 def rotate(half):
-    rotv = 0
-    alph = list(ascii_uppercase)
+    rotation_value = 0
+    alphabet = list(ascii_uppercase)
     for i in half:
-        rotv += alph.index(i)
-        rotv = rotv % len(alph)
+        rotation_value += alphabet.index(i)
+        rotation_value = rotation_value % len(alphabet)
     rotated = ""
     for i in half:
-        pos = alph.index(i)
-        pos = (pos+rotv) % len(alph)
-        rotated += alph[pos]
+        pos = alphabet.index(i)
+        pos = (pos+rotation_value) % len(alphabet)
+        rotated += alphabet[pos]
     return rotated
 
 
 def merge(half_1, half_2):
-    alph = list(ascii_uppercase)
+    alphabet = list(ascii_uppercase)
     final = ""
     for i in range(len(half_1)):
-        pos = alph.index(half_1[i])
-        rotv = alph.index(half_2[i])
-        pos = (pos+rotv) % len(alph)
-        final += alph[pos]
+        position = alphabet.index(half_1[i])
+        rotation_value = alphabet.index(half_2[i])
+        position = (position+rotation_value) % len(alphabet)
+        final += alphabet[position]
     return final
 
 
